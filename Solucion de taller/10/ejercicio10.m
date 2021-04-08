@@ -6,6 +6,7 @@ e=0.707
 wn=4/(4*e)
 pd=roots([1 2*e*wn wn^2])
 pd=pd'
+% pd=[-50 -50]'
 k=place(a,b,pd)
 po=[-5 -5]
 h=acker(a',c',po)
